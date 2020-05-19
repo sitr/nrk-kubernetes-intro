@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '048c42f2-11c2-44eb-8d97-a536c24e9750'
   imageRepository: 'sitrnrkkubernetesintro'
   containerRegistry: 'sigbjornregistry.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/frontend/dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/frontend/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
