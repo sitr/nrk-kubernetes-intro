@@ -1,15 +1,9 @@
 const education = [
     {
-        yearFrom: 2005,
-        yearTo: 2007,
-        place: 'University 1',
-        comment: 'Studying'
-    },
-    {
-        yearFrom: 2001,
-        yearTo: 2004,
-        place: 'Barista academy',
-        comment: 'Made coffee'
+        yearFrom: 1989,
+        yearTo: 1992,
+        place: 'Gjøvik Ingeniørhøgskole',
+        comment: 'Elektronikk og data'
     }
 ]
 
@@ -29,8 +23,8 @@ const work = [
 ]
 
 const me = {
-    name: 'Arthur Dent',
-    location: 'Earth'
+    name: 'Sigbjørn Trageton',
+    location: 'Våle'
 }
 
 module.exports = { me, work, education };
